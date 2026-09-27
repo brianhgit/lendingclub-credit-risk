@@ -1,0 +1,51 @@
+
+=== counts ===
+ fct_rows  full_term_loans  full_term_36  full_term_60  unresolved_pct
+  2257919           573011        529921         43090           0.001
+
+=== grade_term ===
+ term_months grade  loans  resolved_loans  defaults  default_pct  avg_rate  cash_return_pct  small_sample_flag
+          36     A 121136          121135      6677         5.51      7.29             7.39              False
+          36     B 179547          179547     19801        11.03     11.03             9.36              False
+          36     C 138354          138352     24264        17.54     14.06             9.18              False
+          36     D  67449           67446     15369        22.79     17.26             8.80              False
+          36     E  19135           19135      5315        27.78     19.96             7.34              False
+          36     F   3875            3875      1238        31.95     23.65             6.49              False
+          36     G    425             425       153        36.00     25.26             6.75               True
+          60     A   1108            1108        92         8.30      8.30            13.18              False
+          60     B   6975            6975      1105        15.84     11.64            15.50              False
+          60     C  13396           13396      2962        22.11     15.44            18.81              False
+          60     D   7278            7278      1975        27.14     18.04            18.32              False
+          60     E   8337            8337      2564        30.75     20.65            20.68              False
+          60     F   4907            4907      1749        35.64     23.01            19.25              False
+          60     G   1089            1089       409        37.56     24.26            18.62              False
+
+=== vintage_36m_at_mob_24 ===
+ issue_year  cohort_loans  cum_default_pct
+       2007           251            12.35
+       2008          1562            13.19
+       2009          4716             9.94
+       2010          8466             7.29
+       2011         14101             8.12
+       2012         43470            10.45
+       2013        100422             9.47
+       2014        162570            10.48
+       2015        283173            11.60
+
+=== vintage_36m_max_age ===
+ issue_year  max_mob  final_cum_default_pct
+       2007       42                  17.53
+       2008       42                  15.81
+       2009       42                  12.47
+       2010       42                   9.90
+       2011       42                  10.62
+       2012       42                  13.58
+       2013       42                  12.33
+       2014       42                  13.73
+       2015       33                  14.35
+       2016       21                  11.31
+       2017        9                   3.97
+
+=== portfolio_totals ===
+    loans  funded_billion  wavg_rate
+2257919.0           33.98      13.38
