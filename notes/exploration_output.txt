@@ -1,0 +1,111 @@
+
+=== rows_cols ===
+   rows  cols
+2260701   151
+
+=== status ===
+                                        loan_status       n   pct
+                                         Fully Paid 1076751 47.63
+                                            Current  878317 38.85
+                                        Charged Off  268559 11.88
+                                 Late (31-120 days)   21467  0.95
+                                    In Grace Period    8436  0.37
+                                  Late (16-30 days)    4349  0.19
+ Does not meet the credit policy. Status:Fully Paid    1988  0.09
+Does not meet the credit policy. Status:Charged Off     761  0.03
+                                            Default      40  0.00
+                                                NaN      33  0.00
+
+=== nulls_top25 ===
+                               column_name  null_percentage
+                                 member_id           100.00
+orig_projected_additional_accrued_interest            99.62
+                             deferral_term            99.52
+                           hardship_reason            99.52
+                           hardship_length            99.52
+                   payment_plan_start_date            99.52
+              hardship_last_payment_amount            99.52
+                      hardship_loan_status            99.52
+                           hardship_amount            99.52
+                              hardship_dpd            99.52
+                         hardship_end_date            99.52
+                             hardship_type            99.52
+                       hardship_start_date            99.52
+                           hardship_status            99.52
+            hardship_payoff_balance_amount            99.52
+                     settlement_percentage            98.49
+                 debt_settlement_flag_date            98.49
+                         settlement_status            98.49
+                           settlement_term            98.49
+                           settlement_date            98.49
+                         settlement_amount            98.49
+       sec_app_mths_since_last_major_derog            98.41
+                        sec_app_revol_util            95.30
+                          sec_app_mort_acc            95.22
+                          sec_app_open_acc            95.22
+
+=== formats ===
+ issue_d       term int_rate revol_util last_pymnt_d
+Dec-2015  36 months    13.99       29.7     Jan-2019
+Dec-2015  36 months    11.99       19.2     Jun-2016
+Dec-2015  60 months    10.78       56.2     Jun-2017
+Dec-2015  60 months    14.85       11.6     Feb-2019
+Dec-2015  60 months    22.45       64.5     Jul-2016
+
+=== junk_rows ===
+                                              id loan_amnt loan_status
+Total amount funded in policy code 1: 6417608175      None        None
+Total amount funded in policy code 2: 1944088810      None        None
+Total amount funded in policy code 1: 1741781700      None        None
+ Total amount funded in policy code 2: 564202131      None        None
+Total amount funded in policy code 1: 1791201400      None        None
+ Total amount funded in policy code 2: 651669342      None        None
+Total amount funded in policy code 1: 1443412975      None        None
+ Total amount funded in policy code 2: 511988838      None        None
+Total amount funded in policy code 1: 2063142975      None        None
+ Total amount funded in policy code 2: 823319310      None        None
+Total amount funded in policy code 1: 1538432075      None        None
+ Total amount funded in policy code 2: 608903141      None        None
+Total amount funded in policy code 1: 2087217200      None        None
+ Total amount funded in policy code 2: 662815446      None        None
+Total amount funded in policy code 1: 3503840175      None        None
+ Total amount funded in policy code 2: 873652739      None        None
+Total amount funded in policy code 1: 2050909275      None        None
+ Total amount funded in policy code 2: 820109297      None        None
+Total amount funded in policy code 1: 2080429200      None        None
+ Total amount funded in policy code 2: 737901574      None        None
+        Loans that do not meet the credit policy      None        None
+ Total amount funded in policy code 1: 460296150      None        None
+         Total amount funded in policy code 2: 0      None        None
+Total amount funded in policy code 1: 1437969475      None        None
+ Total amount funded in policy code 2: 520780182      None        None
+Total amount funded in policy code 1: 2700702175      None        None
+  Total amount funded in policy code 2: 81866225      None        None
+Total amount funded in policy code 1: 1404586950      None        None
+ Total amount funded in policy code 2: 567447023      None        None
+Total amount funded in policy code 1: 1817354125      None        None
+ Total amount funded in policy code 2: 620899600      None        None
+Total amount funded in policy code 1: 1465324575      None        None
+ Total amount funded in policy code 2: 521953170      None        None
+
+=== issue_range ===
+first_issue last_issue
+ 2007-06-01 2018-12-01
+
+=== grade_first_look ===
+grade  loans  default_pct  avg_int_rate
+    A 235095         6.04          7.11
+    B 392748        13.39         10.68
+    C 381694        22.44         14.02
+    D 200966        30.39         17.72
+    E  93656        38.48         21.14
+    F  32059        45.20         24.93
+    G   9132        49.93         27.73
+
+=== as_of_date ===
+as_of_date
+2019-03-01
+
+=== recoveries_check ===
+ gap_with_recoveries  gap_without_recoveries
+            0.000021             1209.456929
