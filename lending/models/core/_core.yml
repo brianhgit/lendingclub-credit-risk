@@ -1,0 +1,16 @@
+﻿version: 2
+models:
+  - name: fct_loans
+    columns:
+      - name: sub_grade
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_sub_grade')
+                field: sub_grade
+      - name: issue_month
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_issue_month')
+                field: issue_month

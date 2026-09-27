@@ -1,0 +1,7 @@
+﻿lending:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../lending.duckdb
+      threads: 4
